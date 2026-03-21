@@ -1,0 +1,166 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f0f0f0;
+  font-family: Arial, sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 40px 0;
+}
+
+.cv-wrapper {
+  width: 794px;
+  min-height: 1123px;
+  background: #fff;
+  display: flex;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* SIDEBAR */
+.sidebar {
+  width: 260px;
+  background: #2d425a;
+  color: #fff;
+}
+
+.sidebar img {
+  width: 100%;
+  height: auto; 
+  display: block;
+}
+
+.sidebar-content {
+  padding: 30px 20px;
+}
+
+.side-block {
+  margin-bottom: 30px;
+}
+
+.side-block h3 {
+  font-size: 14px;
+  letter-spacing: 2px;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  margin-bottom: 10px;
+  text-transform: uppercase;
+}
+
+.side-block p,
+.hobby-list li {
+  font-size: 12px;
+  color: #e0e0e0;
+  line-height: 1.6;
+}
+
+.skill-box {
+  margin-bottom: 12px;
+}
+.skill-box label {
+  font-size: 11px;
+  text-transform: uppercase;
+}
+
+.progress,
+.lang-line {
+  height: 10px;
+  background: #3e5372;
+}
+.fill {
+  height: 100%;
+  background: #cbd5e0;
+}
+
+.hobby-list {
+  list-style: none;
+}
+
+/* MAIN */
+.main-body {
+  flex: 1;
+  padding: 50px 40px;
+}
+
+.main-header h1 {
+  font-size: 40px;
+  color: #2d425a;
+}
+.job-title {
+  font-size: 18px;
+  color: #7b90a9;
+  letter-spacing: 4px;
+  margin: 15px 0 25px;
+}
+
+.contact-bar {
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  font-size: 11px;
+  font-weight: bold;
+  color: #2d425a;
+}
+
+/* SECTIONS */
+.info-section {
+  margin-top: 35px;
+}
+.section-heading {
+  font-size: 16px;
+  color: #2d425a;
+  border-bottom: 2px solid #eee;
+  margin-bottom: 20px;
+}
+
+.grid-row {
+  display: flex;
+  margin-bottom: 20px;
+}
+
+.date-col {
+  width: 110px;
+  font-size: 12px;
+  border-right: 1px solid #eee;
+  padding-right: 10px;
+}
+
+.date-col span {
+  color: #888;
+}
+
+.desc-col {
+  padding-left: 15px;
+  flex: 1;
+}
+
+.desc-col h4 {
+  color: #2d425a;
+  margin-bottom: 5px;
+}
+.desc-col p {
+  font-size: 12px;
+  color: #555;
+  line-height: 1.6;
+}
+
+/* LANG */
+.lang-wrapper {
+  display: flex;
+  gap: 20px;
+}
+.lang-item span {
+  font-size: 12px;
+  display: block;
+  margin-bottom: 5px;
+}
+.lang-line {
+  background: #eee;
+}
+.lang-line .fill {
+  background: #7b90a9;
+}
